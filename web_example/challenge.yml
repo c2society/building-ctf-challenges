@@ -1,0 +1,33 @@
+name: Example Node Challenge
+author: this_is_you
+category: web
+description: >
+    Something something web stuffs something
+value: 100
+type: docker
+image: .
+
+extra:
+  docker_image: node_app:latest
+
+connection_info:
+attempts: 5
+
+flags:
+    - TPZ{FLAGZZZZ}
+
+requirements:
+    - "Welcome!"
+
+topics:
+    - web
+
+tags:
+    - web
+
+state: visible
+
+hints:
+    - Boom...
+
+version: "0.1"

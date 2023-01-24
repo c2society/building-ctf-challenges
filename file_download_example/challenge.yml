@@ -1,0 +1,32 @@
+---
+name: Challenge Name For You
+author: this_is_you
+category: puzzle
+description: Simple description for the people
+value: 100
+type: standard
+image: .
+
+connection_info:
+
+attempts: 5
+
+flags:
+    - TPZ{FLAGZZZZ}
+
+topics:
+    - topic
+
+tags:
+    - topic
+
+files:
+    - flag.txt
+
+hints:
+    - content: "Just simple template for hints"
+      cost: 25
+
+state: visible
+
+version: "0.1"
