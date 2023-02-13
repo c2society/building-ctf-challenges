@@ -57,6 +57,8 @@ Challenges that have a service running in a container. These can also be associa
 - Other challenge types hosted in web server that outputs a flag
 - Protocol attacks using the container as the host/server/client/etc.
 
+NOTE: With our current infrastructure and use of CTFd, each docker challenge must only expose a single port. For more information, please see the requirements around docker challenges found at: https://github.com/offsecginger/CTFd-Docker-Challenges
+
 ## Challenge File Requirements
 
 We are currently using the CTFd CLI requirements in order to leverage CTFd as the underlying platform. This specification is defined at the URL below:
